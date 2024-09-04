@@ -9,7 +9,7 @@ def soma_for() -> int:
     
     return sum
 
-def soma_while() -> int:
+def sum_while() -> int:
     i: int = 0 # Counter variable
     sum: int = 0
 
