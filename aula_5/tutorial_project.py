@@ -13,7 +13,9 @@
 # inside main.py
 
 def main () -> None:
-    ...
+    ... #code
 
 if __name__ == '__main__':
     main()
+
+# python main.py
