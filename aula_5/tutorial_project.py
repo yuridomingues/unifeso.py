@@ -5,3 +5,15 @@
 # Ctrl + Shift + ´ (open terminal)
 # python --version
 # python -m venv -venv
+# source .venv/bin/activate
+# touch main.py
+# ctrl + shift + ´
+# ctrl + b
+
+# inside main.py
+
+def main () -> None:
+    ...
+
+if __name__ == '__main__':
+    main()
