@@ -67,3 +67,38 @@ Pilha -> last-in/first-out(lifo)
 
 - O ultimo que entra, sai primeiro (pop)
 
+## List Comprehension
+
+- Lista = []
+    for num in range(1.000.001):
+    lista.append(num)
+
+Procurar sobre:
+
+Import from time
+
+    Inicio = PERF_COUNTER()
+
+    LISTA = [NUM FOR NUM IN RANGE(1000001)]
+
+    FIM = PERF_COUNTER()
+    PRINT(FIM-INICIO).#SEGUNDOS
+
+Tupla 
+
+Tuplas sao imutaveis
+
+- Criando uma tupla
+
+tupla = tuple(num for num in range(11))
+print(tupla)
+print(trupla[3]) # Acessando o 3 elemento
+
+Conjunto (Sets)
+
+Um conjunto é formado por elementos distintos que não se repetem e que não possuem uma ordem especifica
+
+exemplo
+
+my_set = set(my_tuple)
+print(my_set)
